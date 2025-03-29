@@ -1,9 +1,16 @@
 {
     "manifest_version": 3,
-    "name": "Name Greeter",
+    "name": "Web Page Summarizer",
     "version": "1.0",
-    "description": "A simple extension that greets you by name",
-    "permissions": ["storage"],
+    "description": "A Chrome extension that greets you and summarizes web pages using Gemini AI",
+    "permissions": [
+        "storage",
+        "activeTab",
+        "scripting"
+    ],
+    "host_permissions": [
+        "http://localhost:5000/*"
+    ],
     "action": {
         "default_popup": "popup.html"
     },
