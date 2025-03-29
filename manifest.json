@@ -1,0 +1,14 @@
+{
+    "manifest_version": 3,
+    "name": "Name Greeter",
+    "version": "1.0",
+    "description": "A simple extension that greets you by name",
+    "permissions": ["storage"],
+    "action": {
+        "default_popup": "popup.html"
+    },
+    "icons": {
+        "48": "icon48.png",
+        "128": "icon128.png"
+    }
+} 
